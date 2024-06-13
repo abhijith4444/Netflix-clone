@@ -1,0 +1,178 @@
+.button1{
+    width: 100px;
+    height: 50px;
+    margin-left: 60px;
+    cursor: pointer;
+    border: 1px;
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    z-index: 1;
+    position: absolute;
+    top: 450px; 
+    left: 50px; 
+    font-family: 'poppins';
+    font-size: large;
+    
+}
+.button2{
+    width: 100px;
+    height: 50px;
+    margin-left: 90px;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    background-color:  rgba(47, 39, 39, 0.546);
+    border-radius: 3px;
+    z-index: 1;
+    position: absolute;
+    top: 450px;
+    left: 140px; 
+    font-family: 'poppins';
+    font-size: large;
+
+}
+
+.BannerVdo{
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit:cover;
+    margin-top: -70px;
+    z-index: -1;
+    
+}
+
+.content{
+   
+    margin-top: -70px;
+    height: 500px;
+    width: 100%;
+    top: 10px;
+   
+    
+}
+
+.logo{
+    width: 300px;
+}
+
+.logoDiv{
+    margin-top: -600px;
+    margin-left: 50px;
+}
+
+.description{
+    color: aliceblue;
+}
+
+.fade-bottom{
+    height: 7rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+    margin-top: 195px;
+}
+
+
+
+@media (max-width:800px){
+    .logoDiv{
+        margin-top: -490px;
+    }
+    .logo{
+        margin-top: 260px;
+        width: 160px;
+    }
+    .button1{
+        width: 70px;
+        height: 30px;
+        font-size: small;
+        top: 210px;
+        margin-left: 30px;
+        margin-top: 100px;
+        
+    }
+    .button2{
+        width: 70px;
+        height: 30px;
+        font-size: small;
+        top: 210px;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+    .fade-bottom{
+        margin-top: 74px;
+    }
+     .content{
+        width: 100%;
+        max-height: 130px;
+        margin-top:71px ;
+     }
+     .logoDiv h2{
+        display: none;
+     }
+}
+
+@media (max-width:500px){
+    .content{
+        margin-top: 73px;
+        max-height: 15px;
+    }
+    .logo{
+        margin-top: 380px;
+    }
+    .button1{
+        margin-top: 20px;
+    }
+    .button2{
+        margin-top: 20px;
+    }
+    .fade-bottom{
+        height: 16px;
+    }
+    .logoDiv{
+        margin-top: -393px;
+    }
+
+}
+@media(max-width:1300px){
+    .logo{
+        margin-top:140px;
+    }
+    .content{
+        height: 460px;
+    }
+
+}
+
+@media(max-width:391px){
+
+    .BannerVdo{  
+    height: 250px;
+     }
+    .content{
+    max-height: 6px;
+    }    
+    
+  .logo{
+    margin-top: 210px;
+    width: 100px;
+    display: none;
+  }
+  .button1{
+    margin-top: -15px;
+    margin-left: 1px;
+    width: 120px;
+  }
+  .button2{
+    margin-top: -15px;
+    margin-left: 80px;
+    width: 120px;
+  }
+  .fade-bottom{
+    margin-top: 60px;
+  }
+  
+}

@@ -1,0 +1,57 @@
+.Player{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Player img{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 50px;
+    cursor: pointer;
+
+}
+.Player iframe{
+    border-radius: 10px;
+    width: 80%;
+    height: 800px;
+    margin-top: 40px;
+}
+.player-info{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 50px;
+
+}
+
+@media(max-width:800px){
+    .Player iframe{
+        width: 700px;
+        height: 400px;
+    }
+}
+
+@media (max-width:500px){
+    .Player iframe{
+        width: 400px;
+        height: 200px;
+    }
+    .player-info{
+        font-size: 10px;
+        margin-top: 15px;
+    }
+}
+@media(max-width:391px){
+    .Player iframe{
+        width: 300px;
+        height: 170px;
+    }
+    .player-info{
+        font-size: 8px;
+        margin-top: 20px;
+    }
+}
